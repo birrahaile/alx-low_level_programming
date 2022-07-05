@@ -1,18 +1,28 @@
-#include <unistd.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
-  * _isalpha - Checks for alphabetic character
-  * @c: The character to be checked
+  * main - Prints the sum of Even Fibonacci numbers
+  * less than 4000000.
   *
-  * Return: 1 for alphabetic character or 0 for anything else
+  * Return: Nothing!
   */
-int _isalpha(int c)
+int main(void)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	int i = 0;
+	long j = 1, k = 2, sum = k;
+
+	while (k + j < 4000000)
 	{
-		return (1);
+		k += j;
+
+		if (k % 2 == 0)
+			sum += k;
+
+		j = k - j;
+
+		++i;
 	}
 
+	printf("%ld\n", sum);
 	return (0);
 }
