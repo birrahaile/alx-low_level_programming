@@ -1,23 +1,15 @@
 #include <unistd.h>
 #include "main.h"
 /**
-* print_last_digit - Prints the last digit of a number
-* @n: The number to be treated
-*
-* Return: Value of the last digit of number
-*/
+ * print_last_digit - print the last digit of a number
+ * @n: number to get last digit of
+ *
+ * Return: value of last digit
+ */
 int print_last_digit(int n)
 {
-	int last;
-
-	last = n % 10;
-
-	if (last < 0)
-	{
-		last = last * -1;
-	}
-
-	_putchar(last + '0');
-
-	return (last);
+	n %= 10;
+	n = (n < 0 ? -1 * n : n);
+	_putchar(n + '0');
+	return (n);
 }
