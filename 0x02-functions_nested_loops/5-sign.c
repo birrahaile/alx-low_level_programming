@@ -2,31 +2,26 @@
 #include "main.h"
 
 /**
- * print_sign - Check the code
- * Description: check wheather a number is a positive,
- * negative or zero
- * Return: 1 if number is positive, o if number is 0, or
- * -1 if number is negative
- */
+  * print_sign - Prints the sign of a number
+  * @n: The number to be checked
+  *
+  * Return: 1 for positive num, -1 for negative num or zero for anything else
+  */
 int print_sign(int n)
 {
-    char tester;
-
-    if (n > 0){
-        tester = 1;
-        _putchar('+');
-    }
-    else if (n < 0)
-    {
-        /* code */
-        tester = -1;
-        _putchar('-');
-    }
-    else
-    {
-        /* code */
-        tester = 0;
-        _putchar('0');
-    }
-    return(tester);
+	if (n > 0)
+	{
+		_putchar(43);
+		return (1);
+	}
+	else if (n < 0)
+	{
+		_putchar(45);
+		return (-1);
+	}
+	else
+	{
+		_putchar(48);
+		return (0);
+	}
 }
