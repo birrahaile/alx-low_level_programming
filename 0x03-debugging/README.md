@@ -1,1 +1,1 @@
-This is debugging class
+This is Debuggin in C
