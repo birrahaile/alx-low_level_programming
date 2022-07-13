@@ -1,5 +1,5 @@
-#include "holberton.h"
-
+#include "main.h"
+#include <stdio.h>
 /**
   * print_number - Prints any integer with putchar
   * @n: Number to prints
