@@ -1,6 +1,6 @@
 /*
  * File: 7-print_chessboard.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
