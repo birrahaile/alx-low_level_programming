@@ -1,6 +1,6 @@
 /*
  * File: 4-strpbrk.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
