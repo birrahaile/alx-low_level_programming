@@ -1,6 +1,6 @@
 /*
  * File: 9-set_string.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
