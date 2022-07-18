@@ -1,6 +1,6 @@
 /*
  * File: 3-strspn.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
