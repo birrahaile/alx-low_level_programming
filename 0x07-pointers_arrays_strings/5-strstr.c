@@ -1,6 +1,6 @@
 /*
  * File: 5-strstr.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
