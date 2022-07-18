@@ -1,6 +1,6 @@
 /*
  * File: 8-print_diagsums.c
- * Auth: Ephrem Abebe
+ * Auth: Birra Haile
  */
 
 #include "main.h"
